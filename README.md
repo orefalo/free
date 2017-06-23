@@ -28,8 +28,8 @@ Load Avg:        1.63 1.95 1.95
 
 Olivier Refalo
 
-[travis-link]: https://travis-ci.org/orefalo/free
-[travis-badge]: https://img.shields.io/travis/orefalo/free.svg
+[travis-link]: https://travis-ci.org/fisherman/free
+[travis-badge]: https://img.shields.io/travis/fisherman/free.svg
 [slack-link]: https://fisherman-wharf.herokuapp.com
 [slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
