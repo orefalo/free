@@ -50,6 +50,6 @@ function free -d "an osx substitution for linux 'free' command"
 		sysctl -n -o vm.swapusage | awk '{   if( $3+0 != 0 )  printf( "Swap(%2.0f%s):    %6.0fMb %6.0fMb %6.0fMb\n", ($6+0)*100/($3+0), "%", ($3+0), ($6+0), $9+0); }'
 		sysctl -n -o vm.loadavg | awk '{printf( "Load Avg:        %3.2f %3.2f %3.2f\n", $2, $3, $4);}'
 	else
-		printf "Sorry, this version of free only runs on OSX"
+		command free $argv
 	end
 end
